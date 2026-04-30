@@ -44,6 +44,11 @@ class GunicornConfig(BaseModel):
 
 class ApiV1Prefix(BaseModel):
     prefix: str = "/v1"
+    matches: str = "/matches"
+    teams: str = "/teams"
+    referees: str = "/referees"
+    divisions: str = "/divisions"
+    seasons: str = "/seasons"
 
 
 class ApiPrefix(BaseModel):
