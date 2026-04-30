@@ -1,0 +1,7 @@
+name: premier_league
+
+include:
+  - app.yaml
+  - postgres.yaml
+  - adminer.yaml
+  - volumes.yaml
