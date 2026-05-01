@@ -27,11 +27,7 @@ make all
 This single command will:
 - Build the Docker images
 - Start PostgreSQL
-- Start Redis
-- Start RabbitMQ
 - Start the FastAPI application
-- Run database migrations
-- Create the first admin user
 
 ## 3. Access the application
 - API: http://localhost:8000
